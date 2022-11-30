@@ -1,0 +1,9 @@
+[user]
+	email = jaksmutny@gmail.com
+	name = Jakub Smutný
+[init]
+	defaultBranch = master
+[alias]
+	ll = log --oneline --graph --all --decorate
+[push]
+	default = simple

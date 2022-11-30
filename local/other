@@ -1,0 +1,6 @@
+# adds spacer to dock
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}' && killall Dock
+
+# makes touchID your password
+sudo vim /etc/pam.d/sudo
+auth sufficient pam_tid.so
