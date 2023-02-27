@@ -2,7 +2,7 @@
 
 Unix Workspace Configuration
 
-### To run this script
+## To run this script
 
 ```shell
 chmod +x config.sh
