@@ -1,6 +1,0 @@
-Host fray1
-    HostName fray1.fit.cvut.cz
-    User smutnjak
-    HostKeyAlgorithms=+ssh-rsa
-    PubKeyAcceptedKeyTypes=+ssh-rsa
-    
