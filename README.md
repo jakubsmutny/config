@@ -7,3 +7,9 @@ My prefered Unix Workspace Configuration
 ```shell
 ./config.sh
 ```
+
+### Clean up
+
+```shell
+yes | rm -r "$OLDPWD"/config
+```
