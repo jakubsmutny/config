@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# To run this script
-# chmod +x config.sh
-# ./config.sh
-
 PREFEREDSHELL="bash"
 
 # set custom prompt
@@ -43,4 +39,4 @@ echo "----------------------"
 # make and go to developer folder (and clean up)
 mkdir ~/dev
 cd ~/dev
-yes | rm -r "$OLDPWD"/config
+yes | rm -r "$OLDPWD"
