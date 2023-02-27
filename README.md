@@ -11,5 +11,9 @@ My prefered Unix Workspace Configuration
 ### Clean up
 
 ```shell
-yes | rm -r "$OLDPWD"/config
+cd ~/dev
+```
+
+```shell
+rm -rf "$OLDPWD"
 ```

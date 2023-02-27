@@ -36,7 +36,5 @@ echo "----------------------"
 #   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 #   eval "$(/opt/homebrew/bin/brew shellenv)" # Set PATH, MANPATH, etc., for Homebrew.
 
-# make and go to developer folder
-cd ..
+# make developer folder
 mkdir ~/dev
-cd ~/dev
