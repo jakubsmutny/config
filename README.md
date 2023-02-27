@@ -1,12 +1,8 @@
 # config
 
-Unix Workspace Configuration
+My prefered Unix Workspace Configuration
 
-## To run this script
-
-```shell
-chmod +x config.sh
-```
+## Run this script
 
 ```shell
 ./config.sh
