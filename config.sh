@@ -6,6 +6,10 @@ PREFEREDSHELL="bash"
 echo 'PS1="\e[0;37m\w> \e[00m"' >> ~/."$PREFEREDSHELL"rc
 echo 'PS2="\e[1;37m > \e[00m"' >> ~/."$PREFEREDSHELL"rc
 
+sudo apt install build-essential
+sudo apt install valgrind
+sudo apt install git
+
 # configure GIT profile
 echo '[user]
 	email = jaksmutny@gmail.com
@@ -23,6 +27,7 @@ ssh-keygen -t rsa -b 4096
 echo "--- SSH PUBLIC KEY ---"
 cat ~/.ssh/id_rsa.pub
 echo "----------------------"
+
 
 #   # Shortcut to remote SSH host
 #   echo 'Host fray1
