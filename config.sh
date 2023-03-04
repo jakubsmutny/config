@@ -42,4 +42,4 @@ echo "----------------------"
 #   eval "$(/opt/homebrew/bin/brew shellenv)" # Set PATH, MANPATH, etc., for Homebrew.
 
 # make developer folder
-mkdir ~/dev
+mkdir ~/Developer
