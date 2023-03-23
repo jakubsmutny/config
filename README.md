@@ -11,5 +11,5 @@ gh repo clone jakubsmutny/config; cd config; ./config.sh
 ### Clean up
 
 ```shell
-cd ~/dev; rm -rf "$OLDPWD"
+cd ~/Developer; rm -rf "$OLDPWD"
 ```
