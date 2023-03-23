@@ -1,10 +1,10 @@
 #!/bin/bash
 
-PREFEREDSHELL="bash"
-
 # set custom prompt
-echo 'PS1="\e[0;37m\w> \e[00m"' >> ~/."$PREFEREDSHELL"rc
-echo 'PS2="\e[1;37m > \e[00m"' >> ~/."$PREFEREDSHELL"rc
+echo 'PS1="\e[0;37m\w> \e[00m"' >> ~/.bashrc
+echo 'PS2="\e[1;37m > \e[00m"' >> ~/.bashrc
+#	PS1="%~> " >> ~./zshrc
+#	PS2="> " >> ~./zshrc
 
 sudo apt install build-essential
 sudo apt install valgrind
