@@ -33,10 +33,6 @@ sudo pam-auth-update --enable fprintd
 echo "Fingerprint:"
 fprintd-enroll
 
-# logi options alternative for linux
-sudo apt install solaar
-solaar
-
 #   # Shortcut to remote SSH host
 #   echo 'Host fray1
 #       HostName fray1.fit.cvut.cz
