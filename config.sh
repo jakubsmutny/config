@@ -3,6 +3,7 @@
 # set custom prompt
 echo 'PS1="\e[0;37m\w> \e[00m"' >> ~/.bashrc
 echo 'PS2="\e[1;37m > \e[00m"' >> ~/.bashrc
+echo 'cd ~/Developer/' >> ~/.bashrc
 
 sudo apt install gcc
 sudo apt install valgrind
