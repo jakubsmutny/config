@@ -3,10 +3,8 @@
 # set custom prompt
 echo 'PS1="\e[0;37m\w> \e[00m"' >> ~/.bashrc
 echo 'PS2="\e[1;37m > \e[00m"' >> ~/.bashrc
-#	PS1="%~> " >> ~./zshrc
-#	PS2="> " >> ~./zshrc
 
-sudo apt install build-essential
+sudo apt install gcc
 sudo apt install valgrind
 sudo apt install git
 
@@ -28,6 +26,15 @@ echo "--- SSH PUBLIC KEY ---"
 cat ~/.ssh/id_rsa.pub
 echo "----------------------"
 
+# fingerprint scanner
+sudo apt-get install fprintd libpam-fprintd
+sudo pam-auth-update --enable fprintd
+echo "Fingerprint:"
+fprintd-enroll
+
+# logi options alternative for linux
+sudo apt install solaar
+solaar
 
 #   # Shortcut to remote SSH host
 #   echo 'Host fray1
@@ -36,10 +43,6 @@ echo "----------------------"
 #       HostKeyAlgorithms=+ssh-rsa
 #       PubKeyAcceptedKeyTypes=+ssh-rsa
 #   ' >> ~/.ssh/config
-
-#   # Homebrew
-#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-#   eval "$(/opt/homebrew/bin/brew shellenv)" # Set PATH, MANPATH, etc., for Homebrew.
 
 # make developer folder
 mkdir ~/Developer
